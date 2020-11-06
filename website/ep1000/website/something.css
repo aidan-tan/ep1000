@@ -1,0 +1,67 @@
+#header {
+    background-color: silver;
+    color: darkslateblue;
+    text-align: center;
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Lucida Console'
+}
+
+#container{
+    background-color: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+#content{
+
+    padding: 10px
+
+}
+
+#nav{
+	width: 180px;
+	float:left;
+}
+
+#main{
+	width: 600px;
+	float:right;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #339994;
+    color:white;
+    text-align: center;
+}
+
+#nav.selected{
+	font-weight:bold;
+}
+
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding:0;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+#nav .selected {
+    color: lime;
+    font-weight: bold;
+}
+table, th,td{
+    border: 2px solid lime
+}
