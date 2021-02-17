@@ -24,7 +24,7 @@ body{
 
 #nav{
 	width: 60px;
-	float:left;
+	align-content: left;
 }
 
 #main{
